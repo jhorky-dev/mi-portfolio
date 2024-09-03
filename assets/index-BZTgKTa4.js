@@ -154,4 +154,4 @@ input, select {
   vertical-align:middle;
 }
 
-`;function Bv(){return Oe.jsx(Vv,{children:Oe.jsx("h1",{children:"HomeTemplate"})})}const Vv=Od.div``;function Wv(){const{themeStyle:e}=q0();return Oe.jsxs(k0,{theme:e,children:[Oe.jsx(Uv,{}),Oe.jsx(Mv,{})]})}sd(document.getElementById("root")).render(Oe.jsx(T.StrictMode,{children:Oe.jsx(Fv,{children:Oe.jsx(Wv,{})})}));
+`;function Bv(){return Oe.jsx(Vv,{children:Oe.jsx("h1",{children:"HomeTemplate"})})}const Vv=Od.div``;function Wv(){const{themeStyle:e}=q0();return Oe.jsxs(k0,{theme:e,children:[Oe.jsx(Uv,{}),Oe.jsx(Mv,{})]})}sd(document.getElementById("root")).render(Oe.jsx(T.StrictMode,{children:Oe.jsx(Fv,{basename:"/mi-portfolio",children:Oe.jsx(Wv,{})})}));
