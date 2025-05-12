@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+    --color-bgTotal: #f5f5f5;
+    --color-text: #1e1e1e;
+    --color-primary: #007bff;
+    --color-secondary: #6c757d;
+    --color-success: #28a745;
+    --color-info: #17a2b8;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+}
+
+.dark {
+    --color-bgTotal: #1e1e1e;
+    --color-text: #f5f5f5;
+    --color-primary: #007bff;
+    --color-secondary: #6c757d;
+}
+
+body {
+    background-color: var(--color-bgTotal);
+    color: var(--color-text);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+    body {
+        @apply min-h-screen;
+    }
+    h1 {
+        @apply text-4xl font-bold;
+    }
+    h2 {
+        @apply text-2xl font-bold;
+    }
+    h3 {
+        @apply text-xl font-bold;
+    }
+    h4 {
+        @apply text-lg font-bold;
+    }
+    h5 {
+        @apply text-base font-bold;
+    }
+    p {
+        @apply text-base;
+    }
+}
+
+@layer components {
+
+}
+
+@layer utilities {
+
+}
